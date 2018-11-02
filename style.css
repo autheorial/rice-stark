@@ -1,0 +1,460 @@
+/*
+Theme Name: Stark
+Theme URI: http://rice.hugs.nu
+Description: Some black here and there, but mostly white.
+Author: Alice
+Author URI: http://rice.hugs.nu
+
+*/
+
+body {
+background-color : #ffffff;
+padding : 0;
+margin : 0;
+font : normal 80% arial, sans-serif;
+line-height : 150%;
+color : #000;
+}
+
+#header {
+width: 900px;
+font-size: 600%;
+color: #fff;
+text-align: center;
+font-family: arial;
+background-image: url('bg.jpg');
+background-color: #000;
+text-transform: uppercase;
+font-weight: normal;
+margin: 0 auto 0 auto;
+height: 100px;
+letter-spacing: -4px;
+padding: 100px 0 0 0;
+}
+
+a.header:link, a.header:visited{
+opacity: 0.9;
+color:#fff;
+text-decoration:none;
+font-weight:normal;
+}
+
+a.header:hover, a.hover:active{
+opacity:1;
+}
+
+#container {
+width : 900px;
+margin: 5px auto 0px auto;
+}
+
+#content {
+width : 75%;
+float: left;
+padding-bottom:50px;
+}
+
+#sidebar {
+float: right;
+width: 23%;
+padding-bottom:50px;
+}
+
+ul#navigation {
+text-align: center;
+margin:0 auto 0 auto;
+-webkit-padding-start: 0 !important;
+-moz-padding-start: 0 !important;
+padding-start: 0 !important;
+padding: 15px 0 15px 0;
+}
+
+#navigation li {
+margin: 0 auto 0 auto;
+display: inline;
+padding: 0;
+}
+
+#navigation li a {
+list-style-type : none;
+list-style : none;
+width : auto;
+margin : 0;
+text-decoration : none;
+font-family : arial;
+font-size : 200%;
+padding:0 20px 0 20px;
+text-transform : uppercase;
+color : #000;
+letter-spacing:-2px;
+font-weight : normal;
+display : inline;
+}
+
+#navigation li a:hover {
+background-color:#000;
+background-image:url('bg.jpg');
+color:#fff;
+}
+
+
+#footer{
+background-color:#000;
+clear:both;
+background-image:url(bg.jpg);
+color:#fff;
+width:100%;
+padding:10px 0 10px 0;
+margin:50px 0 0 0;
+}
+
+a.foot:link, a.foot:visited{
+color:#fff;
+}
+
+h1 {
+font : normal 190% arial;
+color : #000;
+text-align : left;
+letter-spacing:-1px;
+margin : 0px 0 10px 0;
+border-bottom: #000 double 3px;
+border-top: #000 double 3px;
+padding-top:5px;
+}
+
+h6 {
+font : normal 190% arial;
+color : #000;
+text-align : left;
+letter-spacing:-1px;
+margin : 0px 0 10px 0;
+text-transform : none;
+border-bottom: #000 double 3px;
+border-top: #000 double 3px;
+padding-top:5px;
+}
+
+a.blog:link, a.blog:visited {
+font : normal 100% arial;
+color: #000;
+}
+
+
+h2 {
+font : normal 190% arial;
+color : #000;
+text-align : right;
+letter-spacing:-1px;
+margin : 10px 0 10px 0;
+}
+
+.box{
+padding: 20px 0 20px 0;
+}
+
+
+h3 {
+font : normal 80% arial, sans-serif;
+text-transform : uppercase;
+text-align : right;
+margin : 0 0 5px 0;
+padding : 0 0 10px 0;
+line-height : 0;
+color : #000;
+}
+
+ot {
+font: normal 80% arial;
+text-align : right;
+color : #000;
+}
+
+h4 {
+font : normal 200% courier, courier new, serif;
+letter-spacing:-1px;
+}
+
+
+h5 {
+font : normal 90% arial;
+text-align : left;
+padding : 10px 0 0 0;
+margin : 0;
+}
+
+.more {
+font : normal 90% arial, sans-serif;
+text-transform : uppercase;
+padding : 0;
+text-align : right;
+}
+
+.center {
+text-align : center;
+margin : 0 auto 0 auto;
+}
+
+a:link, a:visited {
+color:#000;
+font-weight:bold;
+text-decoration:none;
+}
+
+a:hover, a:active {
+color: #999;
+text-decoration:none;
+}
+
+a.net:link, a.net:visited {
+border : 0;
+opacity: 0.7;
+}
+
+a.net:hover, a.net:active {
+border : 0;
+opacity:1;
+}
+
+a.ru:link, a.ru:visited{
+display:block;
+background-color:000;
+background-image:url(bg.jpg);
+color: #fff;
+font: normal 85% courier;
+text-decoration:none;
+padding:2px;
+margin:2px;
+text-align:center;
+text-transform:uppercase;
+}
+
+a.ru:hover, a.ru:active{
+color:#ccc;
+}
+
+
+b, strong {
+color : #fff;
+background-image:url(bg.jpg);
+background-color:#000;
+letter-spacing:1px;
+text-transform:uppercase;
+font-size:95%;
+padding:1px;
+}
+
+
+
+i, em {
+color : #333;
+}
+
+s, strike {
+font-family:courier, courier new, serif;
+letter-spacing:-1px;
+}
+
+
+
+u, underline {
+font-family:courier, courier new, serif;
+letter-spacing:-1px;
+text-decoration : none;
+border-bottom : 3px double #666;
+
+}
+
+
+
+code {
+font : normal 100% courier new;
+}
+
+
+
+blockquote {
+padding : 10px;
+margin : 20px;
+text-align : center;
+border:1px solid #000;
+}
+
+ul {
+list-style-type : circle;
+margin:2px;
+}
+
+ul.xoxo.blogroll{
+display:block;
+list-style-type : none;
+text-transform:uppercase;
+font: normal 85% arial;
+text-transform:-2px;
+text-align:right;
+}
+
+
+::selection {
+color:#eee;
+background-color:#333;
+}
+
+
+
+::-moz-selection {
+color:#eee;
+background-color:#333;
+}
+
+
+
+.thecomment {
+margin : 10px 0 15px 0;
+border-bottom : 1px solid #2e2e2e;
+}
+
+textarea, select, textInput, input {
+border: #fff 1px solid;
+color : #fff;
+background-color : #000;
+background-image:url(bg.jpg);
+padding : 5px;
+font-family: arial;
+}
+
+.comment-meta {
+font : normal 100% arial;
+}
+
+.commentlist{
+-webkit-padding-start: 10px;
+padding-start: 10px;
+-moz-padding-start: 10px;
+}
+
+.comment {
+list-style-type: none;
+}
+
+.comment-author {
+float: left;
+}
+
+.author {
+font: normal 200% courier, courier new;
+letter-spacing:-2px;
+text-transform:uppercase;
+}
+
+.editComment, .editableComment, .textComment {
+display : inline;
+}
+
+.comment-childs {
+margin : 5px 2px 2px 10px;
+}
+
+#newcomment {
+border : 1px solid #000;
+width : 95%;
+}
+
+#newcommentsubmit {
+font-family : arial;
+background-color:#fff;
+}
+
+
+.adminreplycomment {
+border: 1px solid #000;
+width: 90%;
+margin: 4px;
+padding: 4px;
+}
+
+.mvccls {
+color : #000;
+}
+
+#comment {
+font-family: arial;
+width:80%;
+}
+
+
+
+.footnotes {
+font-size : 85%;
+padding : 10px 0 10px 0;
+}
+
+
+
+.footnotes ol {
+margin : 0 0 0 3%;
+padding : 0;
+}
+
+sup.footnote a {
+text-decoration : none;
+font-size : 105%;
+font-weight : bold;
+}
+
+.footnotereverse a {
+padding : 0 0 0 5px;
+text-decoration : none;
+}
+
+.left {
+text-align : left;
+float : left;
+width : auto;
+}
+
+.right {
+text-align : right;
+float : right;
+width : auto;
+}
+
+acronym {
+border-bottom : 1px dotted #111;
+}
+
+.breadcrumbs {
+font : normal 80% arial;
+width : 100%;
+margin: 0 0 0 0;
+text-transform: uppercase;
+padding: 5px 0 5px 0;
+}
+
+.dr {
+font : normal 80% arial;
+width : 100%;
+margin: 0 0 0 0;
+text-transform: uppercase;
+padding: 5px 0 5px 0;
+height:16px;
+}
+
+.drr {
+margin : 0 0 15px 0;
+padding: 5px 0;
+border-top : 3px #000 double;
+width : 100%;
+text-transform: uppercase;
+font : normal 80% arial;
+height:16px;
+}
+
+hr {
+color : #222;
+background-color : #222;
+border : 1px solid #222;
+border-style : none none solid;
+width : 50%;
+text-align : center;
+}
